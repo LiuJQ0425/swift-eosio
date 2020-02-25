@@ -18,10 +18,6 @@ let package = Package(
         ),
         .target(
             name: "crypto"
-        ),
-        .testTarget(
-            name: "EOSIOTests",
-            dependencies: ["EOSIO"]
-        ),
+        )
     ]
 )
